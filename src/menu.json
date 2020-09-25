@@ -47,7 +47,7 @@
       "name": "Flat White",
       "type": "drinks",
       "price": "£2.00",
-	  "desc": "",
+	  "desc": "A espresso with steamed milk with small, fine bubbles and a glossy or velvety consistency.",
       "image": "https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
       "forSale": true
     },
@@ -55,7 +55,7 @@
       "name": "Esspresso",
       "type": "drinks",
       "price": "£2.00",
-	  "desc": "",
+	  "desc": "Just coffee. One or two shots.",
       "image": "https://thumbs-prod.si-cdn.com/mqRDrGAo_a2B8dPA_xSlzo5YY3A=/fit-in/1600x0/https://public-media.si-cdn.com/filer/9c/6f/9c6f6d2f-15d8-480f-9b84-43ce6a4a7cd0/kevin-butz-bbfrigifyq8-unsplash.jpg",
       "forSale": true
   },
@@ -63,14 +63,14 @@
       "name": "Cappuccino",
       "type": "drinks",
       "price": "£2.00",
-	  "desc": "",
+	  "desc": "A coffee prepared with steamed milk foam. Not to be consumed after 11am.",
       "image": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-facebookJumbo.jpg",
       "forSale": true
   },
     {
       "name": "Latte",
       "type": "drinks",
-      "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
+      "desc": "A latte is the creamiest of our coffee selection. Available with a range of different syrups and milks",
       "price": "£2.00",
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_316/f_auto,q_auto,w_1100/v1554738549/shape/mentalfloss/istock-173245886.jpg",
       "forSale": true
