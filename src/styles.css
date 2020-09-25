@@ -10,12 +10,10 @@
 }
 
 .Product__Content {
-  height: 15px;
+  height: 80px;
 }
 
 .Product__Allegens {
-  height: 50px;
-  margin-bottom: 3px;
   text-align: center;
 }
 .Menu__Items {
