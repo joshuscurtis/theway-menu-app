@@ -186,6 +186,8 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary="Specials" />
             </ListItem>
           </List>
+		  <Divider />
+		  
         </Drawer>
         <main
           className={clsx(classes.content, {
