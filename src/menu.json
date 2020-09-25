@@ -75,6 +75,14 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_316/f_auto,q_auto,w_1100/v1554738549/shape/mentalfloss/istock-173245886.jpg",
       "forSale": true
     },
+	{
+      "name": "Frappe",
+      "type": "drinks",
+      "desc": "Flavours include: Mocha, Strawberry and Chocolate.",
+      "price": "£2.00",
+      "image": "https://image.freepik.com/free-photo/iced-coffee-latte-take-away-plastic-glass-wooden-background_41710-57.jpg/f_auto,q_auto,w_1100/v1554738549/shape/mentalfloss/istock-173245886.jpg",
+      "forSale": true
+  },
     {
       "name": "Sandwich",
       "type": "food",
