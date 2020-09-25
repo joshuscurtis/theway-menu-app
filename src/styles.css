@@ -9,6 +9,10 @@
   text-transform: capitalize;
 }
 
+.Product__Content{
+	height: 20px;
+}
+
 .Product__Allegens {
   text-align: center;
 }

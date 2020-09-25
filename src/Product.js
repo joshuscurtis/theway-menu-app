@@ -48,7 +48,7 @@ export default function RecipeReviewCard(props) {
             title={props.name}
           />
         </LazyLoad>
-        <CardContent>
+        <CardContent className="Product__Content">
           <Typography variant="body2" color="textSecondary" component="p">
             {props.desc}
           </Typography>
