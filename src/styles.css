@@ -10,11 +10,11 @@
 }
 
 .Product__Content {
-  height: 10px;
+  height: 15px;
 }
 
 .Product__Allegens {
-  margin-top: 15%;
+  margin-top: 50px
   margin-bottom: 3px;
   text-align: center;
 }
