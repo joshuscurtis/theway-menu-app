@@ -14,7 +14,7 @@
 }
 
 .Product__Allegens {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 5px;
   text-align: center;
   height: 20px;  
@@ -41,20 +41,26 @@
   }
 }
 @media only screen and (min-width: 900px) {
-  .Product__container {
-    width: 33%;
-    flex-flow: column;
-  }
+	.Product__container {
+	  width: 33%;
+	  flex-flow: column;
+	}
+	.Product__Allegens {
+	  margin-top: 25px;
+	  margin-bottom: 5px;
+	  text-align: center;
+	  height: 25px;  
+	}
 }
 @media only screen and (min-width: 1200px) {
   .Product__container {
     width: 25%;
     flex-flow: column;
   }
-  .Product__Allegens {
-  margin-top: 25px;
-  margin-bottom: 5px;
-  text-align: center;
-  height: 25px;  
-}
+	  .Product__Allegens {
+	  margin-top: 25px;
+	  margin-bottom: 5px;
+	  text-align: center;
+	  height: 25px;  
+	}
 }
