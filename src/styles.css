@@ -17,7 +17,6 @@
   margin-top: 15%;
   margin-bottom: 3px;
   text-align: center;
-  height: 25px;
 }
 .Menu__Items {
   display: flex;
@@ -45,28 +44,10 @@
     width: 33%;
     flex-flow: column;
   }
-  .Product__Content {
-    height: 15px;
-  }
-  .Product__Allegens {
-    margin-top: 70%;
-    margin-bottom: 5px;
-    text-align: center;
-    height: 25px;
-  }
 }
 @media only screen and (min-width: 1200px) {
   .Product__container {
     width: 25%;
     flex-flow: column;
-  }
-  .Product__Content {
-    height: 15px;
-  }
-  .Product__Allegens {
-    margin-top: 12%;
-    margin-bottom: 5px;
-    text-align: center;
-    height: 25px;
   }
 }
