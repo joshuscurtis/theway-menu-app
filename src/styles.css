@@ -1,7 +1,7 @@
 
 @media only screen and (min-width: 600px) {
   .Product__container {
- 	width: calc(50% - 25px);
+ 	width: 50%;
     flex-flow: column;
   }
 }
@@ -39,7 +39,7 @@
 }
 .Product__container {
   min-width: 300px;
-  max-width: calc(100% - 25px);
+  width: calc(100% - 25px);
   flex-flow: column;
 }
 .Menu__Container {
