@@ -8,6 +8,7 @@ import CardActions from "@material-ui/core/CardActions";
 import Typography from "@material-ui/core/Typography";
 import { red } from "@material-ui/core/colors";
 //import CakeIcon from "@material-ui/icons/Cake";
+import LazyLoad from "react-lazyload";
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: 15,
@@ -40,11 +41,13 @@ export default function RecipeReviewCard(props) {
     <div className="Product__container">
       <Card className={classes.root}>
         <CardHeader title={props.name} subheader={props.price} />
-        <CardMedia
-          className={classes.media}
-          image={props.image}
-          title={props.name}
-        />
+        <LazyLoad height={200} offset={100}>
+          <CardMedia
+            className={classes.media}
+            image={props.image}
+            title={props.name}
+          />
+        </LazyLoad>
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
             {props.desc}
