@@ -14,10 +14,10 @@
 }
 
 .Product__Allegens {
-  margin-top: 20px;
-  margin-bottom: 5px;
+  margin-top: 15%;
+  margin-bottom: 3px;
   text-align: center;
-  height: 20px;
+  height: 25px;
 }
 .Menu__Items {
   display: flex;
@@ -49,7 +49,7 @@
     height: 15px;
   }
   .Product__Allegens {
-    margin-top: 30px;
+    margin-top: 70%;
     margin-bottom: 5px;
     text-align: center;
     height: 25px;
@@ -64,7 +64,7 @@
     height: 15px;
   }
   .Product__Allegens {
-    margin-top: 30px;
+    margin-top: 12%;
     margin-bottom: 5px;
     text-align: center;
     height: 25px;
