@@ -1,23 +1,3 @@
-
-@media only screen and (min-width: 600px) {
-  .Product__container {
- 	width: 50%;
-    flex-flow: column;
-  }
-}
-@media only screen and (min-width: 900px) {
-  .Product__container {
-    width: 33%;
-    flex-flow: column;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .Product__container {
-    width: 25%;
-    flex-flow: column;
-  }
-}
-
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -45,4 +25,23 @@
 .Menu__Container {
   margin-top: 20px;
   margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+  .Product__container {
+ 	width: 50%;
+    flex-flow: column;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .Product__container {
+    width: 33%;
+    flex-flow: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Product__container {
+    width: 25%;
+    flex-flow: column;
+  }
 }
