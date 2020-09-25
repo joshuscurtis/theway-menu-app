@@ -51,4 +51,10 @@
     width: 25%;
     flex-flow: column;
   }
+  .Product__Allegens {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+  height: 25px;  
+}
 }
