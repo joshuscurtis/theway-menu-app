@@ -45,6 +45,9 @@
 	  width: 33%;
 	  flex-flow: column;
 	}
+	.Product__Content{
+  height: 15px;  
+}
 	.Product__Allegens {
 	  margin-top: 25px;
 	  margin-bottom: 5px;
@@ -57,6 +60,9 @@
     width: 25%;
     flex-flow: column;
   }
+  .Product__Content{
+  height: 15px;  
+}
 	  .Product__Allegens {
 	  margin-top: 25px;
 	  margin-bottom: 5px;
