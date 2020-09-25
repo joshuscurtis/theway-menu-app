@@ -28,7 +28,7 @@
       "forSale": true
     },
     {
-      "name": "Oreo",
+      "name": "Oreo Cake",
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "type": "cakes",
       "price": "£2.50",
@@ -36,7 +36,7 @@
       "forSale": true
     },
     {
-      "name": "Biscoff",
+      "name": "Biscoff Cake",
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "type": "cakes",
       "price": "£2.20",
@@ -46,11 +46,24 @@
     {
       "name": "Flat White",
       "type": "drinks",
-      "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "price": "£2.00",
       "image": "https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
       "forSale": true
     },
+	{
+      "name": "Esspresso",
+      "type": "drinks",
+      "price": "£2.00",
+      "image": "https://thumbs-prod.si-cdn.com/mqRDrGAo_a2B8dPA_xSlzo5YY3A=/fit-in/1600x0/https://public-media.si-cdn.com/filer/9c/6f/9c6f6d2f-15d8-480f-9b84-43ce6a4a7cd0/kevin-butz-bbfrigifyq8-unsplash.jpg",
+      "forSale": true
+  },
+	{
+      "name": "Cappuccino",
+      "type": "drinks",
+      "price": "£2.00",
+      "image": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-facebookJumbo.jpg",
+      "forSale": true
+  },
     {
       "name": "Latte",
       "type": "drinks",
