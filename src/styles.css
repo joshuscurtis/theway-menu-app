@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.Menu__Title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.Product__Allegens {
+  text-align: center;
+}
+.Menu__Items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+.Product__container {
+  max-width: calc(100% - 25px);
+  flex-flow: column;
+}
+.Menu__Container {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+  .Product__container {
+    max-width: 50%;
+    flex-flow: column;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .Product__container {
+    max-width: 33%;
+    flex-flow: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Product__container {
+    max-width: 25%;
+    flex-flow: column;
+  }
+}

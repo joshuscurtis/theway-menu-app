@@ -1,2 +1,2 @@
-# theway-menu-app
+# Thewaymenuapp
 Created with CodeSandbox
