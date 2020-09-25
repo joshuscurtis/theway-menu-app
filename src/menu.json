@@ -65,14 +65,16 @@
       "price": "£2.00",
 	  "desc": "A coffee prepared with steamed milk foam. Not to be consumed after 11am.",
       "image": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-facebookJumbo.jpg",
+	  "allegens": "Milks and syrups avalible",
       "forSale": true
   },
     {
       "name": "Latte",
       "type": "drinks",
-      "desc": "A latte is the creamiest of our coffee selection. Available with a range of different syrups and milks",
+      "desc": "A latte is the creamiest of our coffee selection.",
       "price": "£2.00",
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_316/f_auto,q_auto,w_1100/v1554738549/shape/mentalfloss/istock-173245886.jpg",
+	  "allegens": "Milks and syrups avalible",
       "forSale": true
     },
 	{
@@ -89,6 +91,7 @@
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "price": "£2.00",
       "image": "https://www.simplyrecipes.com/wp-content/uploads/2019/05/EYF-Italian-Grilled-Cheese-LEAD-4.jpg",
+	  "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
       "forSale": true
     },
     {
