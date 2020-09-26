@@ -47,80 +47,79 @@
       "name": "Flat White",
       "type": "drinks",
       "price": "£2.00",
-	  "desc": "A espresso with steamed milk with small, fine bubbles and a glossy or velvety consistency.",
+      "desc": "A espresso with steamed milk with small, fine bubbles and a glossy or velvety consistency.",
       "image": "https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/flatWhite_E8R7473_2.jpg?itok=xPht5v0W",
       "forSale": true
     },
-	{
+    {
       "name": "Espresso",
       "type": "drinks",
       "price": "£2.00",
-	  "desc": "Just coffee. One or two shots.",
+      "desc": "Just coffee. One or two shots.",
       "image": "https://thumbs-prod.si-cdn.com/mqRDrGAo_a2B8dPA_xSlzo5YY3A=/fit-in/1600x0/https://public-media.si-cdn.com/filer/9c/6f/9c6f6d2f-15d8-480f-9b84-43ce6a4a7cd0/kevin-butz-bbfrigifyq8-unsplash.jpg",
       "forSale": true
-  },
-	{
+    },
+    {
       "name": "Cappuccino",
       "type": "drinks",
       "price": "£2.00",
-	  "desc": "A coffee prepared with steamed milk foam. Not to be consumed after 11am.",
+      "desc": "A coffee prepared with steamed milk foam. Not to be consumed after 11am.",
       "image": "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-facebookJumbo.jpg",
-	  "allegens": "Milks and syrups avalible",
+      "allegens": "Milks and syrups avalible",
       "forSale": true
-  },
+    },
     {
       "name": "Latte",
       "type": "drinks",
       "desc": "A latte is the creamiest of our coffee selection.",
       "price": "£2.00",
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_316/f_auto,q_auto,w_1100/v1554738549/shape/mentalfloss/istock-173245886.jpg",
-	  "allegens": "Milks and syrups avalible",
+      "allegens": "Milks and syrups avalible",
       "forSale": true
     },
-	{
+    {
       "name": "Frappe",
       "type": "drinks",
       "desc": "Flavours include: Mocha, Strawberry and Chocolate.",
       "price": "£2.00",
       "image": "https://image.freepik.com/free-photo/iced-coffee-latte-take-away-plastic-glass-wooden-background_41710-57.jpg",
       "forSale": true
-  },
-  {
+    },
+    {
       "name": "Tea",
       "type": "drinks",
       "desc": "Flavours include: Mocha, Strawberry and Chocolate.",
       "price": "£1.80",
       "image": "https://keepfitkingdom.com/wp-content/uploads/2019/05/Top-5-Health-Benefits-of-English-Breakfast-Tea-Keep-Fit-Kingdom-842x472.jpg",
       "forSale": true
-  },
+    },
     {
       "name": "Sandwich",
       "type": "food",
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "price": "£2.00",
       "image": "https://www.simplyrecipes.com/wp-content/uploads/2019/05/EYF-Italian-Grilled-Cheese-LEAD-4.jpg",
-	  "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
+      "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
       "forSale": true
     },
-	    {
+    {
       "name": "Bacon & Cheddar Turnover",
       "type": "food",
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "price": "£1.60",
       "image": "https://flawlessfood.co.uk/wp-content/uploads/2020/03/blog-200329-Flawless-cheese-and-bacon-turnovers-17052.jpg",
-	  "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
+      "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
       "forSale": true
-  },
-	    {
+    },
+    {
       "name": "Sausage Roll",
       "type": "food",
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "price": "£2.00",
       "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/06/05/14/birds-eye-green-cuisine-sausage-roll.jpg",
-	  "allegens": "",
+      "allegens": "",
       "forSale": true
-  },
-	
+    },
     {
       "name": "Coffee and Cake",
       "type": "specials",
@@ -137,11 +136,15 @@
       "image": "https://i.ibb.co/0ccfRW7/IMG-20200925-105515-Bokeh.jpg",
       "allegens": "GLUTEN FREE",
       "forSale": true
+    },
+    {
+      "name": "Sweet Pancake Stack",
+      "type": "specials",
+      "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
+      "price": "£5.00",
+      "image": "https://i.ibb.co/0ccfRW7/IMG-20200925-105515-Bokeh.jpg",
+      "allegens": "GLUTEN FREE",
+      "forSale": true
     }
   ]
 }
-
-
-
-
-
