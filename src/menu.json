@@ -102,6 +102,25 @@
 	  "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
       "forSale": true
     },
+	    {
+      "name": "Bacon & Cheddar Turnover",
+      "type": "food",
+      "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
+      "price": "£1.60",
+      "image": "https://flawlessfood.co.uk/wp-content/uploads/2020/03/blog-200329-Flawless-cheese-and-bacon-turnovers-17052.jpg",
+	  "allegens": "Options: Cumberland sausage, tuna mayo or bacon.",
+      "forSale": true
+  },
+	    {
+      "name": "Sausage Roll",
+      "type": "food",
+      "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
+      "price": "£2.00",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/06/05/14/birds-eye-green-cuisine-sausage-roll.jpg",
+	  "allegens": "",
+      "forSale": true
+  },
+	
     {
       "name": "Coffee and Cake",
       "type": "specials",
@@ -111,7 +130,7 @@
       "forSale": true
     },
     {
-      "name": "Josh's Breakfast Pancake Stack",
+      "name": "Breakfast Pancake Stack",
       "type": "specials",
       "desc": "A homemade chocolate brownie, freshly made using belgian chocolate! - the recipe is top secret!",
       "price": "£5.00",
