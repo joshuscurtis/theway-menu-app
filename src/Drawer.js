@@ -103,18 +103,22 @@ export default function PersistentDrawerLeft() {
   const cakesTypeClick = () => {
     setType("cakes");
     handleDrawerClose();
+	window.scrollTo(0, 0)
   };
   const drinksTypeClick = () => {
     setType("drinks");
     handleDrawerClose();
+	window.scrollTo(0, 0)
   };
   const foodTypeClick = () => {
     setType("food");
     handleDrawerClose();
+	window.scrollTo(0, 0)
   };
   const specialsTypeClick = () => {
     setType("specials");
     handleDrawerClose();
+	window.scrollTo(0, 0)
   };
   
   const infoClick = () => {
