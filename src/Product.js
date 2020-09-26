@@ -36,7 +36,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function RecipeReviewCard(props) {
   const classes = useStyles();
-
+  var image = props.image;
+  if(props.image === "") {
+	  image = "https://www.blog.print-print.co.uk/wp-content/uploads/2017/07/promote-coffee-shop.jpg"
+  }
+  
   return (
     <div className="Product__container">
       <Card className={classes.root}>
@@ -44,7 +48,7 @@ export default function RecipeReviewCard(props) {
         <LazyLoad height={200} offset={100}>
           <CardMedia
             className={classes.media}
-            image={props.image}
+            image={image}
             title={props.name}
           />
         </LazyLoad>
