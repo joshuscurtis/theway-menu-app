@@ -192,13 +192,12 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary="Specials" />
             </ListItem>
             <Divider/>
-            <ListItem button onClick={infoClick}>
+            <ListItem className="Drawer__info" button onClick={infoClick}>
               <ListItemIcon>
                 <InfoIcon />
               </ListItemIcon>
               <ListItemText primary="Info" />
             </ListItem>
-
           </List>		  
         </Drawer>
         <main
