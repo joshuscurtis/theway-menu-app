@@ -24,6 +24,7 @@ import CakeIcon from "@material-ui/icons/Cake";
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
 import FastfoodIcon from "@material-ui/icons/Fastfood";
 import NewReleasesIcon from "@material-ui/icons/NewReleases";
+import InfoIcon from "@material-ui/icons/Info"
 import Menu from "./Menu";
 var jsonData = require("./menu.json");
 
@@ -115,6 +116,11 @@ export default function PersistentDrawerLeft() {
     setType("specials");
     handleDrawerClose();
   };
+  
+  const infoClick = () => {
+    handleDrawerClose();
+    alert("Made by Josh :)")
+  };
 
   return (
     <div>
@@ -185,9 +191,15 @@ export default function PersistentDrawerLeft() {
               </ListItemIcon>
               <ListItemText primary="Specials" />
             </ListItem>
-          </List>
-		  <Divider />
-		  
+            <Divider/>
+            <ListItem button onClick={infoClick}>
+              <ListItemIcon>
+                <InfoIcon />
+              </ListItemIcon>
+              <ListItemText primary="Info" />
+            </ListItem>
+
+          </List>		  
         </Drawer>
         <main
           className={clsx(classes.content, {
