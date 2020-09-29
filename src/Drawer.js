@@ -1,4 +1,5 @@
 import React from "react";
+
 //import ReactDOM from "react-dom";
 //import "./styles.css";
 
@@ -27,7 +28,7 @@ import NewReleasesIcon from "@material-ui/icons/NewReleases";
 import InfoIcon from "@material-ui/icons/Info";
 import Menu from "./Menu";
 
-var jsonData = require("./menu");
+var menu = require("./menu.json");
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -211,8 +212,7 @@ export default function PersistentDrawerLeft() {
           })}
         ></main>
       </div>
-      <Menu menu={jsonData.items} type={type} />
+      <Menu menu={menu.items} type={type} />
     </div>
   );
 }
-
