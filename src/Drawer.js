@@ -24,9 +24,10 @@ import CakeIcon from "@material-ui/icons/Cake";
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
 import FastfoodIcon from "@material-ui/icons/Fastfood";
 import NewReleasesIcon from "@material-ui/icons/NewReleases";
-import InfoIcon from "@material-ui/icons/Info"
+import InfoIcon from "@material-ui/icons/Info";
 import Menu from "./Menu";
-var jsonData = require("./menu.json");
+
+var jsonData = require("./menu");
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -103,27 +104,27 @@ export default function PersistentDrawerLeft() {
   const cakesTypeClick = () => {
     setType("cakes");
     handleDrawerClose();
-	window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   };
   const drinksTypeClick = () => {
     setType("drinks");
     handleDrawerClose();
-	window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   };
   const foodTypeClick = () => {
     setType("food");
     handleDrawerClose();
-	window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   };
   const specialsTypeClick = () => {
     setType("specials");
     handleDrawerClose();
-	window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   };
-  
+
   const infoClick = () => {
     handleDrawerClose();
-    alert("Made by Josh :)")
+    alert("Made by Josh :)");
   };
 
   return (
@@ -195,14 +196,14 @@ export default function PersistentDrawerLeft() {
               </ListItemIcon>
               <ListItemText primary="Specials" />
             </ListItem>
-            <Divider/>
+            <Divider />
             <ListItem className="Drawer__info" button onClick={infoClick}>
               <ListItemIcon>
                 <InfoIcon />
               </ListItemIcon>
               <ListItemText primary="Info" />
             </ListItem>
-          </List>		  
+          </List>
         </Drawer>
         <main
           className={clsx(classes.content, {
@@ -214,3 +215,4 @@ export default function PersistentDrawerLeft() {
     </div>
   );
 }
+
