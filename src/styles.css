@@ -17,7 +17,7 @@
 .Product__Image {
   height: 250px;
   padding-top: 56.25%;
-  background-position: center;
+  background-position: bottom;
 }
 .Product__Content {
   height: 50px;
