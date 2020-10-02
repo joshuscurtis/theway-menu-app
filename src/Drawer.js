@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 //import ReactDOM from "react-dom";
 //import "./styles.css";
@@ -27,6 +27,8 @@ import FastfoodIcon from "@material-ui/icons/Fastfood";
 import NewReleasesIcon from "@material-ui/icons/NewReleases";
 import InfoIcon from "@material-ui/icons/Info";
 import Menu from "./Menu";
+
+import axios from "axios";
 
 var menu = require("./menu.json");
 
@@ -94,6 +96,19 @@ export default function PersistentDrawerLeft() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const [type, setType] = React.useState("cakes");
+  const [menuData, setMenuData] = React.useState(0);
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(
+        "https://cors-anywhere.herokuapp.com/https://www.christchurchdunstable.org.uk/theway/images/data.json"
+      );
+      console.log(request.data);
+      setMenuData(request.data);
+      return request;
+    }
+    fetchData();
+  }, []);
+
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -212,7 +227,7 @@ export default function PersistentDrawerLeft() {
           })}
         ></main>
       </div>
-      <Menu menu={menu.items} type={type} />
+      <Menu menu={menuData.items} type={type} />
     </div>
   );
 }
