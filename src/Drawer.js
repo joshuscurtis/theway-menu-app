@@ -30,7 +30,7 @@ import Menu from "./Menu";
 
 import axios from "axios";
 
-var menu = require("./menu.json");
+const menu = require("./menu.json");
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -96,11 +96,12 @@ export default function PersistentDrawerLeft() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const [type, setType] = React.useState("cakes");
-  const [menuData, setMenuData] = React.useState(0);
+  const [menuData, setMenuData] = useState(menu);
+
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(
-        "https://cors-anywhere.herokuapp.com/https://www.christchurchdunstable.org.uk/theway/images/data.json"
+        "https://cors-anywhere.herokuapp.com/https://www.christchurchdunstable.org.uk/theway/json/menu.json"
       );
       console.log(request.data);
       setMenuData(request.data);
