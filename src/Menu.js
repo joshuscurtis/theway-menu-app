@@ -2,13 +2,14 @@ import React from "react";
 
 import Typography from "@material-ui/core/Typography";
 //import Card from "@material-ui/core/Card";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 import Product from "./Product";
 export default function ItemBuilder(props) {
   const menu = props.menu;
   const type = props.type;
   if (props.menu === "loading") {
-    return <h1>Loading</h1>;
+    return <CircularProgress className="load" />;
   } else {
     var rows = [];
     for (var i = 0; i < menu.length; i++) {
