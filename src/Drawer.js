@@ -30,7 +30,7 @@ import Menu from "./Menu";
 
 import axios from "axios";
 
-const menu = require("./menu.json");
+//const menu = require("./menu.json");
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -96,7 +96,7 @@ export default function PersistentDrawerLeft() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const [type, setType] = React.useState("cakes");
-  const [menuData, setMenuData] = useState(menu);
+  const [menuData, setMenuData] = useState("loading");
 
   useEffect(() => {
     async function fetchData() {
