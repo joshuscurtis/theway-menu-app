@@ -9,8 +9,7 @@ export default function ItemBuilder(props) {
   const type = props.type;
   if (props.menu === "loading") {
     return <h1>Loading</h1>;
-  }
-  if (props.menu !== "loading") {
+  } else {
     var rows = [];
     for (var i = 0; i < menu.length; i++) {
       if (type === menu[i].type && menu[i].forSale === true) {

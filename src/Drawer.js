@@ -104,7 +104,7 @@ export default function PersistentDrawerLeft() {
         "https://cors-anywhere.herokuapp.com/https://www.christchurchdunstable.org.uk/theway/json/menu.json"
       );
       console.log(request.data);
-      setMenuData(request.data);
+      setMenuData(request.data.items);
       return request;
     }
     fetchData();
@@ -228,7 +228,7 @@ export default function PersistentDrawerLeft() {
           })}
         ></main>
       </div>
-      <Menu menu={menuData.items} type={type} />
+      <Menu menu={menuData} type={type} />
     </div>
   );
 }
