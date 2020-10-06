@@ -101,7 +101,7 @@ export default function PersistentDrawerLeft() {
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(
-        "http://cors.12nine.xyz/https://www.christchurchdunstable.org.uk/theway/json/menu.json"
+        "https://cors-anywhere.herokuapp.com/http://www.christchurchdunstable.org.uk/theway/json/menu.json"
       );
       console.log(request.data);
       setMenuData(request.data.items);
