@@ -29,9 +29,6 @@ export default function ItemBuilder(props) {
 
     return (
       <div className="Menu__Container">
-        <Typography className="Menu__Title" variant="h5" component="h5">
-          {props.type}
-        </Typography>
         <div className="Menu__Items">{rows}</div>
       </div>
     );
